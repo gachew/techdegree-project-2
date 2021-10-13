@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+img {
+    width: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4rem;
+
+}
+
+.container{
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+/* MEDIA QUERIES*/
+@media (min-width: 320px) {
+    .container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
