@@ -4,17 +4,32 @@
 .main-header{
     text-align: center;
     padding: 1em 0;
-    background-color: aqua;
 }   
 .main-nav {
-    font-weight: 800;
-    text-align: center;
     list-style-type: none;
     text-decoration: none;
-    display: block;
-    padding: 0;
+    padding: 1em;
+    margin-top: 1em;
+    text-transform: uppercase;
 }
 
+.main-nav a {
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    background-color: white;
+    font-size: 1.125em;
+    padding: 1em;
+    border-spacing: 1em;
+}
+.main-nav a:hover {
+    color: blueviolet;
+
+}
+.container{
+    background-color: lightgray;
+}
+ 
 .name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -44,11 +59,12 @@ img {
     background-color: pink;
 
 }
-
+.wrap{
+    background-color: lightgray;
+}
 
 section {
     padding: 3rem 0;
-    background-color: blanchedalmond;
 }
 
 body {
