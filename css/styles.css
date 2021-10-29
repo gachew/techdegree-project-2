@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
 }
+head {
+    margin: 0;
+}
 .main-header{
     text-align: center;
-    padding: 1em 0;
 }   
 .main-nav {
     list-style-type: none;
@@ -12,7 +14,13 @@
     margin-top: 1em;
     text-transform: uppercase;
 }
-
+li {
+ padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: darkgrey;
+ }
 .main-nav a {
     font-weight: 800;
     text-align: center;
@@ -21,20 +29,17 @@
     font-size: 1.125em;
     padding: 1em;
     border-spacing: 1em;
+    text-decoration: none;
 }
 .main-nav a:hover {
     color: blueviolet;
-
 }
-.container{
-    background-color: lightgray;
-}
- 
 .name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     padding-top: 1em;
     text-align: center;
+    margin: none;
 }
 #profile {
     display: block;
@@ -42,29 +47,34 @@
     margin-right: auto;
     width: 80%;
 }
+h1 {
+    text-decoration: none;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 1em;
     text-transform: uppercase;
-    padding: 1rem 0;
+    padding: 40px;
 }
 h3 {
-
     padding-top: 1rem;
 }
+p {
+    margin: 20px;
+     padding-bottom: 1rem;
+}
+
 img {
+    margin: 0;
     width: 100%;
 }
 #intro {
-    background-color: pink;
+    background-color: #f5f5f5;
 
 }
 .wrap{
     background-color: lightgray;
-}
-
-section {
-    padding: 3rem 0;
 }
 
 body {
@@ -72,10 +82,12 @@ body {
     font-weight: 300;
     font-size: 20px;
     line-height: 2rem;
-    background-color:rgb(218, 218, 218)y;
+    background-color: rgb(218, 218, 218)y;
 }
 
 .main-footer {
+    border-top: 1px solid rgb(202, 202, 202);
+    border-length: 10px;
     background-color: rgb(245, 245, 245);
     text-align: center;
     padding: 1em 0;
@@ -89,11 +101,18 @@ body {
         margin-right: auto;
         width: 100%;
       }
+      h1{
+          margin: 0;
+          padding: 0;
+      }
       .container {
         text-align: center;
-        width: 95%;
+        width: auto;
         margin: 0 auto;
         max-width: 1000px;
+    }
+    body {
+        text-align: center;
     }
 
 }
