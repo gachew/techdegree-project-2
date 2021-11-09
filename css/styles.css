@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 section {
-   padding: 2rem;
+   padding: 1rem;
    margin: auto 0;
 
 }
@@ -60,6 +60,7 @@ img {
   h1 {
       margin: auto 0;
       padding: 0;
+      text-decoration: none;
   }
 body {
     text-align: center;
@@ -78,9 +79,6 @@ body {
     margin-right: auto;
     width: 80%;
 }
-h1 {
-    text-decoration: none;
-}
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -88,7 +86,6 @@ h2 {
     font-size: 1em;
     text-transform: uppercase;
     padding: 40px;
-    padding-top: 4rem;
 }
 h3 {
     padding-top: 1rem;
@@ -160,11 +157,9 @@ hr {
         flex-direction: row-reverse;
         text-align: left;
     }
-    .project {
+    .project-2{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-
     }
 }
 
@@ -172,7 +167,6 @@ hr {
     .main-header, .main-nav, .a main-nav{
         flex-direction: row;
         justify-content: space-between;
-        text-align: center !important;
     }
 
 }
