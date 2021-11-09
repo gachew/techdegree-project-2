@@ -162,10 +162,9 @@ hr {
     }
     .project {
         display: flex;
-
-    }
-    div {
         flex-direction: row;
+        justify-content: space-between;
+
     }
 }
 
