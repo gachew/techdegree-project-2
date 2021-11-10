@@ -32,7 +32,9 @@ head {
    width: auto;
 }
 li {
- padding: 5px;
+ padding: 10px;
+ margin: 5px;
+ background-color: white;
 }
 
 a {
@@ -40,13 +42,14 @@ a {
     color: rgb(40, 40, 40);
  }
 .main-nav a {
+    text-align: center;
     font-weight: 500;
     display: block;
-    padding: 0 1em .5em 0;
     margin: auto 0;
     font-size: 1.125em;
-    border-spacing: auto;
+    border-spacing: 20px;
     text-decoration: none;
+
 }
 ul{
     margin: 0 auto;
@@ -146,10 +149,14 @@ hr {
 
 
 @media (min-width: 760px) {
+    li{
+        background-color: transparent !important;
+    }
 
     .main-nav, main-nav a{
+        justify-content: center;
         flex-direction: row;
-        justify-content: space-between;
+        background-color: transparent;
     }
     .container{
         padding: auto;
@@ -159,8 +166,12 @@ hr {
     }
     .project-2{
         display: flex;
-        flex-direction: row;
+
+    }
+    .img-cap{
+        flex-direction: column;
         flex-wrap: wrap;
+        float: left;
     }
 }
 
