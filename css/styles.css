@@ -152,9 +152,6 @@ hr {
     li{
         background-color: transparent !important;
     }
-    .section {
-        max-width: 300px;
-    }
 
     .main-nav, main-nav a{
         justify-content: center;
@@ -167,15 +164,17 @@ hr {
         flex-direction: row-reverse;
         text-align: left;
     }
+    .img-cap {
+        justify-content: space-between;
+        max-width: 300px;
+        margin: auto;
+    }
 
   .project-2{
-        justify-content: center;
-        max-width: 500px !important;
-
-    }
-    .img-cap{
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin: 0;
     }
 }
 
