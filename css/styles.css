@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: auto;
+    padding: auto;
 }
 section {
    padding: 1rem;
@@ -97,12 +99,8 @@ p {
     margin: 20px;
      padding-bottom: 1rem;
 }
-.project {
-    margin: auto;
-}
 
 img {
-    margin: 0;
     width: 100%;
 }
 
@@ -165,9 +163,9 @@ hr {
         text-align: left;
     }
     .img-cap {
-        justify-content: space-between;
-        max-width: 300px;
-        margin: auto;
+        max-width: 50%;
+        padding: 20px;
+        margin: 0;
     }
 
   .project-2{
@@ -182,6 +180,10 @@ hr {
     .main-header, .main-nav, .a main-nav{
         flex-direction: row;
         justify-content: space-between;
+    }
+    .img-cap {
+        max-width: 33.3333%;
+        margin: 0;
     }
 
 }
