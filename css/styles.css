@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin: auto;
-    text-decoration: none !important;
 }
 html{
     scroll-behavior: smooth;
@@ -37,8 +36,9 @@ head {
 li {
  padding: 10px;
  margin: 5px;
- text-align: top;
- text-decoration: none !important;
+ list-style-type: none;
+ background-color: white;
+
 }
 .desktop-nav{
  display: none;
@@ -56,11 +56,13 @@ a {
     font-size: 1.125em;
     border-spacing: 20px;
     text-decoration: none;
+    
 }
 
 ul {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 img {
     display: block;
@@ -88,6 +90,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.mobile-nav{
+    background-color: transparent !important;
 }
 
 h2 {
@@ -118,7 +123,7 @@ hr {
 .contact{
     display: flex;
     flex-direction: column;
-    margin: none;
+    margin: 0px;
     
 }
 .main-footer {
@@ -146,25 +151,24 @@ hr {
 #contact-2 {
     background-color: #f5f5f5;
     overflow: auto;
-    content: 40%;
 }
 footer{
     margin-top: 10px;
 }
 .main-footer, .listfooter{
+
     display: flex;
-    flex-direction: row;
-    text-decoration: none !important;
     justify-content: space-between;
 }
 .listfooter{
-    justify-content: space-between;
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: bold;
     text-decoration: none !important;
+    margin-left: auto;
 }
-@media (min-width: 760px) {
+@media (min-width: 768px) {
+    
     section {
         padding: 1em;
     }
@@ -184,10 +188,10 @@ footer{
         background-color: transparent;
     }
     .container{
-        padding: 0;
         display: flex;
         flex-direction: row-reverse;
         text-align: left;
+        gap: 70px;
     }
     .img-cap {
         max-width: 50%;
@@ -197,7 +201,6 @@ footer{
     #profile{
         min-width: 350px;
     }
-
   .project-2{
         display: flex;
         flex-direction: row;
@@ -205,8 +208,7 @@ footer{
         margin: 0;
     }
     .contact-info{
-        margin: 20px;
-        padding: 10px;
+        max-width: 700px;
 
     }
 }
@@ -216,6 +218,9 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         text-align: right;
+    }
+    #profile{
+        min-width: 500px;
     }
     #intro{
         padding: 2em;
